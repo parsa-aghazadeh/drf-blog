@@ -1,31 +1,32 @@
+Django REST Framework Blog Project
 
-پروژه وبلاگ با Django REST Framework
-این پروژه یک وبلاگ RESTful است که با استفاده از فریم‌ورک قدرتمند Django REST Framework و پایگاه داده MySQL ساخته شده است. هدف از این پروژه، ارائه یک API کامل و جامع برای مدیریت وبلاگ است که به توسعه‌دهندگان امکان می‌دهد تا به راحتی از امکانات وبلاگ در برنامه‌های خود استفاده کنند. این پروژه شامل امکاناتی نظیر مدیریت پست‌ها، کاربران، نظرات، دسته‌بندی‌ها، لایک و ذخیره پست‌ها و... می‌باشد. علاوه بر این، در این پروژه موارد زیر نیز پیاده‌سازی شده است:
+This project is a RESTful blog built using the powerful Django REST Framework and the MySQL database. The goal of this project is to provide a complete and comprehensive API for blog management, allowing developers to easily use the blog's features in their applications. This project includes features such as managing posts, users, comments, categories, liking and saving posts, and more. In addition, the following have also been implemented in this project:
 
-ویژگی‌های کلیدی:
+Key Features:
 
-عبارتند از API قدرتمند و انعطاف‌پذیر: این پروژه یک API کامل و جامع برای مدیریت وبلاگ ارائه می‌دهد. توسعه‌دهندگان می‌توانند از این API برای انجام عملیات مختلف مانند ایجاد، ویرایش، حذف و مشاهده پست‌ها، کاربران، نظرات و... استفاده کنند.
- 
-احراز هویت مبتنی بر توکن: امنیت API با استفاده از سیستم احراز هویت مبتنی بر توکن تامین شده است. کاربران می‌توانند با دریافت توکن، به API دسترسی داشته باشند.
+Powerful and Flexible API: This project provides a complete and comprehensive API for blog management. Developers can use this API to perform various operations such as creating, editing, deleting, and viewing posts, users, comments, and more.
 
-مدیریت جامع پست‌ها: امکان ایجاد، ویرایش، حذف و مشاهده پست‌ها به صورت دسته‌بندی شده و منظم وجود دارد. همچنین امکان لایک و ذخیره پست‌ها توسط کاربران نیز فراهم شده است.
+Token-Based Authentication: API security is ensured using a token-based authentication system. Users can access the API by obtaining a token.
 
-سیستم مدیریت کاربران: کاربران می‌توانند در سایت ثبت نام کنند و پروفایل خود را مدیریت کنند. امکان مدیریت کاربران توسط مدیر سایت نیز وجود دارد.
+Comprehensive Post Management: The ability to create, edit, delete, and view posts in a categorized and organized manner exists. The ability to like and save posts 
+by users is also provided.
 
-سیستم نظرات: کاربران می‌توانند زیر پست‌ها نظر ارسال کنند و با دیگران در مورد مطالب به اشتراک گذاشته شده بحث و گفتگو کنند.
+User Management System: Users can register on the site and manage their profiles. User management by the site administrator is also possible.
 
-جستجوی پیشرفته: کاربران می‌توانند پست‌ها را بر اساس عنوان، محتوا، نویسنده و دسته‌بندی جستجو کنند.
+Comment System: Users can post comments under posts and discuss shared content with others.
 
-امکانات دیگر: امکاناتی مانند pagination، فیلتر کردن و مرتب‌سازی داده‌ها نیز در این پروژه پیاده‌سازی شده است.
+Advanced Search: Users can search for posts based on title, content, author, and category.
 
-مدیریت تصاویر: امکان آپلود و مدیریت تصاویر برای پست‌ها وجود دارد.
+Other Features: Features such as pagination, filtering, and sorting data are also implemented in this project.
 
-امکانات مدیریتی: پنل مدیریت Django برای مدیریت کاربران، پست‌ها، نظرات و سایر موارد در دسترس است.
+Image Management: The ability to upload and manage images for posts exists.
 
-اعتبارسنجی داده‌ها: داده‌های ورودی توسط serializerها اعتبارسنجی می‌شوند تا از صحت و سلامت داده‌ها اطمینان حاصل شود.
+Administrative Features: The Django admin panel is available for managing users, posts, comments, and other items.
 
-استفاده از Serializerها: برای تبدیل داده‌ها به JSON و بالعکس از serializerهای Django REST Framework استفاده شده است.
+Data Validation: Input data is validated by serializers to ensure data accuracy and integrity.
 
-و Versioning API: امکان استفاده از نسخه‌های مختلف API وجود دارد.
+Use of Serializers: Django REST Framework serializers are used to convert data to and from JSON.
 
-و Logging: تمامی رویدادهای مهم در پروژه ثبت می‌شوند.
+API Versioning: The ability to use different versions of the API exists.
+
+Logging: All important events in the project are logged.
